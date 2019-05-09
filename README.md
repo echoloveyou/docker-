@@ -1,0 +1,1 @@
+docker run -d -v /Users/fanhaojie/dew/app/app/app:/app -v /Users/fanhaojie/dew/app/app/conf:/etc/nginx/conf.d -v /Users/fanhaojie/dew/app/app/mysql:/var/lib/mysql -p 80:80 -p 6379:6379 -p 3306:3306 fanhaojie/lnmp
